@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* background-color: #066acd; */
+  background-image: linear-gradient(to right,#21609e,#67aca5);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.container-task {
+  background-color: #fff;
+  box-shadow: 2px 4px 5px #000;
+  min-height: 5rem;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  border-radius: 1rem;
+}
+
+.error{
+  width: 50%;
+  margin-inline: auto;
+}
+
+input {
+  width: 80%;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border: 3px solid rgb(88, 211, 88);
+  border-radius: 3rem;
+  outline: unset;
+}
+
+input::placeholder {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+button[type="submit"] {
+  background: rgb(88, 211, 88);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  border: unset;
+}
+
+.tasks {
+  width: 50%;
+  margin-inline: auto;
+}
+
+.tasks ul {
+  list-style: none;
+  display: block;
+}
+
+.tasks li {
+  margin-block: 0.8rem;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  font-size: 1.1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 4px 5px #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 1s background-image ease-in;
+}
+
+.tasks li:hover {
+  color: #fff;
+  background-color: #888;
+}
+
+li {
+  text-decoration: none;
+  display: block;
+}
+
+li img {
+  width: 1.5rem;
+  height: auto;
+  display: block;
+}
