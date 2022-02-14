@@ -49,6 +49,26 @@ input {
   outline: unset;
 }
 
+input::-webkit-input-placeholder {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+input::-moz-placeholder {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+input:-ms-input-placeholder {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+input::-ms-input-placeholder {
+  color: #000;
+  font-size: 1.1rem;
+}
+
 input::placeholder {
   color: #000;
   font-size: 1.1rem;
@@ -151,6 +171,26 @@ li img {
     padding-block: 0.8rem;
     border: 1px solid rgb(88, 211, 88);
     border-radius: 2rem;
+    font-size: 1rem;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #000;
+    font-size: 1rem;
+  }
+
+  input::-moz-placeholder {
+    color: #000;
+    font-size: 1rem;
+  }
+
+  input:-ms-input-placeholder {
+    color: #000;
+    font-size: 1rem;
+  }
+
+  input::-ms-input-placeholder {
+    color: #000;
     font-size: 1rem;
   }
 
